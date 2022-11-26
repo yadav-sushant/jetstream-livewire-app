@@ -8,14 +8,14 @@ npm install && npm run dev
 php artisan migrate
 php artisan serve
 
-<!-- 
+
 Error
 @vite(['resources/css/app.css', 'resources/js/app.js']) 
 
 Replace with below code
 <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 <script src="{{ asset('js/app.js') }}" defer></script>
--->
+
 
 
 php artisan vendor:publish --tag=jetstream-views
